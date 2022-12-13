@@ -25,13 +25,13 @@ O desafio é desenvolver o backend do app de uma clinica médica, onde será pos
 
 Link para o quadro trello com as Features desenvolvidas: https://trello.com/b/MQdpKVhj/api-voll-med
 
-[] Cadastro de médicos
+- [ ] Cadastro de médicos
 
-[] Listagem de médicos
+- [ ] Listagem de médicos
 
-[] Atualização de Médicos
+- [ ] Atualização de Médicos
 
-[] Atualização de Médicos
+- [ ] Atualização de Médicos
 
 ### back-end
 O back foi feito utilizando as tecnologias:
