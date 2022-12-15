@@ -1,17 +1,20 @@
-package dominio.medico;
+package entities;
 
 public class Email {
 
     private String endereco;
 
-    public Email(String email) throws IllegalArgumentException{
-        if(!isValid(email)) throw new IllegalArgumentException("Email is invalid");
+    public Email(String email) {
+        if(!isValid(email)) throw new BusinessException("Email is invalid");
 
         this.endereco = email;
     }
     private boolean isValid(String email) {
         String patter = "^[\\w-\\.]+@([\\w-]+\\.)+[\\w-]{2,4}$";
-
         return email.matches(patter);
+    }
+
+    public String getEndereco() {
+        return endereco;
     }
 }
