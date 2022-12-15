@@ -1,4 +1,4 @@
-package dominio.medico;
+package entities;
 
 public class Endereco {
 
@@ -17,5 +17,21 @@ public class Endereco {
         this.cidade = cidade;
         this.UF = UF;
         this.numero = numero;
+    }
+
+    public Endereco(String logradouro, String bairro, String CEP, String cidade, String UF) {
+        this.logradouro = logradouro;
+        this.bairro = bairro;
+        this.CEP = CEP;
+        this.cidade = cidade;
+        this.UF = UF;
+    }
+
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
+    public void setComplemento(String complemento) {
+        this.complemento = complemento;
     }
 }
