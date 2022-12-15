@@ -1,14 +1,14 @@
-package repositories.medico;
+package med.voll.repositories.medico;
 
-import entities.medico.Medico;
-import entities.medico.MedicoRepository;
+import med.voll.entities.medico.Medico;
+import med.voll.entities.medico.MedicoRepository;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-@Repository
+//@Repository
 public class JPAMedicoRepository implements MedicoRepository {
 
-    @Transactional
+    //@Transactional
     @Override
     public void cadastrar(Medico novoMedico) {
         System.out.println("Salvei o medico no banco de dados");

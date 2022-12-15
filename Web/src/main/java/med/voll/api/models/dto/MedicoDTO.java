@@ -1,8 +1,8 @@
 package med.voll.api.models.dto;
 
-import entities.Email;
-import entities.medico.Especialidade;
-import entities.medico.Medico;
+import med.voll.entities.Email;
+import med.voll.entities.medico.Especialidade;
+import med.voll.entities.medico.Medico;
 
 public record MedicoDTO(String nome, String email, String CRM,
                         Especialidade especialidade, EnderecoDTO endereco) {

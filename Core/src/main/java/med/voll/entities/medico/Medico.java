@@ -1,7 +1,7 @@
-package entities.medico;
+package med.voll.entities.medico;
 
-import entities.Email;
-import entities.Endereco;
+import med.voll.entities.Email;
+import med.voll.entities.Endereco;
 
 public class Medico {
 

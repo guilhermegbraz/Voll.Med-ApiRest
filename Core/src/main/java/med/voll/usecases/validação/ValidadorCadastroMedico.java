@@ -1,6 +1,6 @@
-package usecases.medico.validação;
+package med.voll.usecases.validação;
 
-import entities.medico.Medico;
+import med.voll.entities.medico.Medico;
 
 public interface ValidadorCadastroMedico {
 

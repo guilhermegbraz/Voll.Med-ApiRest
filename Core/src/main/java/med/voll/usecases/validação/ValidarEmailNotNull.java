@@ -1,7 +1,7 @@
-package usecases.medico.validação;
+package med.voll.usecases.validação;
 
-import entities.BusinessException;
-import entities.medico.Medico;
+import med.voll.entities.BusinessException;
+import med.voll.entities.medico.Medico;
 
 public class ValidarEmailNotNull implements ValidadorCadastroMedico{
 

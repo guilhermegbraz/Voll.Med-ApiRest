@@ -1,8 +1,8 @@
-package usecases.medico;
+package med.voll.usecases.medico;
 
-import entities.medico.Medico;
-import entities.medico.MedicoRepository;
-import usecases.medico.validação.ValidadorCadastroMedico;
+import med.voll.entities.medico.Medico;
+import med.voll.entities.medico.MedicoRepository;
+import med.voll.usecases.validação.ValidadorCadastroMedico;
 
 import java.util.List;
 

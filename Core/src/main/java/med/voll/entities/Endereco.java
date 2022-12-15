@@ -1,4 +1,4 @@
-package entities;
+package med.voll.entities;
 
 public class Endereco {
 

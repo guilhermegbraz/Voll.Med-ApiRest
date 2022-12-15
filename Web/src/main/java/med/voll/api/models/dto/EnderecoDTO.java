@@ -1,6 +1,6 @@
 package med.voll.api.models.dto;
 
-import entities.Endereco;
+import med.voll.entities.Endereco;
 
 public record EnderecoDTO(String logradouro, String bairro, String CEP,
                           String cidade, String UF, String numero, String complemento) {

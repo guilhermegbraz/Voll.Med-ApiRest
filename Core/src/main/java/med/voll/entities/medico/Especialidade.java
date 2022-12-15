@@ -1,4 +1,4 @@
-package entities.medico;
+package med.voll.entities.medico;
 
 public enum Especialidade {
 
