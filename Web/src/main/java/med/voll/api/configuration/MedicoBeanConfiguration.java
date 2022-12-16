@@ -2,10 +2,11 @@ package med.voll.api.configuration;
 
 import med.voll.repositories.medico.JPAMedicoRepository;
 import med.voll.usecases.medico.CadastroDeMedico;
-import med.voll.usecases.validação.ValidadorCadastroMedico;
-import med.voll.usecases.validação.ValidarEmailNotNull;
+import med.voll.usecases.validação.medico.ValidadorCadastroMedico;
+import med.voll.usecases.validação.medico.ValidarEmailNotNull;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Import;
 
 import java.util.List;
 
@@ -14,8 +15,8 @@ public class MedicoBeanConfiguration {
 
     JPAMedicoRepository medRep;
 
-    public MedicoBeanConfiguration() {
-        this.medRep = new JPAMedicoRepository();
+    public MedicoBeanConfiguration(JPAMedicoRepository medRepo) {
+        this.medRep = medRepo;
     }
 
     @Bean

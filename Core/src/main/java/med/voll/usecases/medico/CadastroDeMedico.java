@@ -2,7 +2,7 @@ package med.voll.usecases.medico;
 
 import med.voll.entities.medico.Medico;
 import med.voll.entities.medico.MedicoRepository;
-import med.voll.usecases.validação.ValidadorCadastroMedico;
+import med.voll.usecases.validação.medico.ValidadorCadastroMedico;
 
 import java.util.List;
 

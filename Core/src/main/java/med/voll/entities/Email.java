@@ -5,7 +5,7 @@ public class Email {
     private String endereco;
 
     public Email(String email) {
-        if(!isValid(email)) throw new BusinessException("Email is invalid");
+        if(!isValid(email)) throw new BusinessException("Email invalido");
 
         this.endereco = email;
     }
